@@ -32,8 +32,10 @@ h1, h2 {
     text-decoration: underline;
     margin-bottom: 15px;
 }
-header {
+.header {
     text-align: center;
+    width: 100%;
+    padding: 50px;
 }
 aside ul {
   list-style-type: none;
