@@ -15,10 +15,6 @@ h1 {
 aside {
     background-color: #3F4756;
     color: white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
 }
 body {
     font-family: 'Arial', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -41,6 +37,7 @@ aside ul {
   list-style-type: none;
   text-align: center;
   padding: 10px;
+  width: 200px;
 }
 article {
     padding: 30px;
@@ -54,4 +51,13 @@ h3 {
 }
 aside ul li {
     margin: 5px 0;
+}
+.parent
+{
+    display: flex;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
