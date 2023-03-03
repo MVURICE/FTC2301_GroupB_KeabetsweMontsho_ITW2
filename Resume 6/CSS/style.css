@@ -23,6 +23,7 @@ a{
     color: #90BAF9;
     
 }
+h
 a:hover{
     color:  #FCFCD4;
 }
@@ -67,6 +68,11 @@ aside ul{
     color: white;
     padding: 20px;
     margin-bottom: 20px;
+    font-size: 18px;
+    
+}
+.menu a:hover{
+    color: #FCFCD4;
 }
 .navigation_list{
     display: flex;
@@ -99,7 +105,7 @@ footer{
 aside main ul {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin: 10px 0px;
 }
 
