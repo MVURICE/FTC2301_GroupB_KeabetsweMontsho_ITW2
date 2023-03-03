@@ -88,13 +88,19 @@ footer{
 }
 
 .fa-solid{
-    margin: 0 8px;
+    margin: 0 5px;
     color: #90BAF9;
 }
+.fa-brands{
+    color: #90BAF9;
+    margin: 0 5px;
+}
+
 aside main ul {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 10px 0px;
 }
 
 
