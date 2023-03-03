@@ -86,3 +86,15 @@ footer{
     bottom: 0;
     color: #90BAF9;
 }
+
+.fa-solid{
+    margin: 0 8px;
+    color: #90BAF9;
+}
+aside main ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
