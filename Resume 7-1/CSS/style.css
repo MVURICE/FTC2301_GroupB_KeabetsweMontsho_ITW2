@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #90BAF9;
+    text-align: center;
+    padding: 10px;
+}
+aside main{
+    color: white;
+    background-color: black;
+    padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: #90BAF9;
+    
+}
+
+a:hover,.menu a:hover,.menu .fa-brands:hover,.menu .fa-solid:hover{
+    color:  #FCFCD4;
+    
+}
+.left{
+    width: 1000px;
+}
+h1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+h2 {
+    text-align: center;
+}
+h3{
+    margin-top: 15px;
+    text-decoration: underline;
+}
+Header h3{
+    text-decoration: none;
+}
+
+hr{
+    margin-bottom: 15px;
+}
+article{
+    padding: 10px 20px;
+}
+img{
+    margin-top: 20px;
+    border: #FCFCD4 solid 5px;
+    border-radius: 50%;
+}
+ul{
+    list-style-type: none;
+
+}
+aside ul{
+    text-align: center;
+}
+.menu{
+    /* background-color: rgb(62, 62, 62); */
+    background: linear-gradient(45deg, black, rgb(62, 62, 62));
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+}
+
+.navigation_list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.menu a{
+    color: #90BAF9;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto 2px;
+    font-size: 22px;
+    
+}
+footer{
+    padding: 20px;
+    background: linear-gradient(70deg, black, rgb(62, 62, 62));
+    position: fixed;
+    bottom: 0;
+    color: #90BAF9;
+}
+
+.fa-solid{
+    margin: 0 2px;
+    color: #90BAF9;
+}
+.fa-brands{
+    color: #90BAF9;
+    margin: 0 2px;
+    font-size: 18px;
+}
+
+aside main ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto 28px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+label{
+    margin-top: 8px;
+}
+#submit:hover{
+    background-color: #90BAF9;
+}
+
+#submit{
+    width: 100px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    border-radius: 5%;
+    border: none;
+    font-size: large;
+}
+form {
+    width: 300px;
+}
