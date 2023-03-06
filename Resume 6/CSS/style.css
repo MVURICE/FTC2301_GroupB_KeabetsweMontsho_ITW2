@@ -16,6 +16,7 @@ aside main{
     color: white;
     background-color: black;
     padding: 10px;
+    /* background-color: linear-gradient(black, rgb(62, 62, 62)); */
 
 }
 a{
@@ -23,9 +24,10 @@ a{
     color: #90BAF9;
     
 }
-h
-a:hover{
+
+a:hover,.menu a:hover, .fa-brands:hover, .fa-solid:hover{
     color:  #FCFCD4;
+    
 }
 .left{
     width: 900px;
@@ -64,49 +66,54 @@ aside ul{
     text-align: center;
 }
 .menu{
-    background-color: rgb(62, 62, 62);
+    /* background-color: rgb(62, 62, 62); */
+    background: linear-gradient(45deg, black, rgb(62, 62, 62));
     color: white;
     padding: 20px;
     margin-bottom: 20px;
     font-size: 18px;
     
 }
-.menu a:hover{
-    color: #FCFCD4;
-}
+
 .navigation_list{
     display: flex;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
     color: white;
 }
 .menu a{
     color: #90BAF9;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto 2px;
+    font-size: 22px;
+    
 }
 footer{
     padding: 20px;
-    background-color: rgb(62, 62, 62);
+    background: linear-gradient(70deg, black, rgb(62, 62, 62));
     position: fixed;
     bottom: 0;
     color: #90BAF9;
+    width: 100%;
 }
 
 .fa-solid{
-    margin: 0 5px;
+    margin: 0 2px;
     color: #90BAF9;
 }
 .fa-brands{
     color: #90BAF9;
-    margin: 0 5px;
+    margin: 0 2px;
+    font-size: 18px;
 }
 
 aside main ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 10px 0px;
-}
+    margin: auto 30px;
 
+}
 
