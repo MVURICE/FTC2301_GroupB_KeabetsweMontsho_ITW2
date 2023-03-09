@@ -201,5 +201,18 @@ input,select{
 .right img{
     object-fit: cover;
     width: 100%;
-    height: 500px;
+    height: 325px;
 }
+
+@media screen and (max-width: 880px) {
+    .right img {
+        height: 347px;
+    }
+  }
+
+@media screen and (min-width: 1390px) {
+    .right img {
+        height: 290px;
+    }
+  }
+
