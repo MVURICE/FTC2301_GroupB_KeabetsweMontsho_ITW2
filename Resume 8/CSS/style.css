@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left{
+    background-color: black;
+    
+    
+}
+
+header {
+    background-color: #90BAF9;
+    text-align: center;
+    padding: 15px;
+}
+
+aside main{
+    color: white;
+    /* background-color: black; */
+    padding: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #90BAF9;
+    
+}
+
+a:hover,.menu a:hover,.menu .fa-brands:hover,.menu .fa-solid:hover{
+    color:  #FCFCD4;
+    
+}
+
+.left{
+    width: 1000px;
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3{
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+Header h3{
+    text-decoration: none;
+}
+
+hr{
+    margin-bottom: 15px;
+}
+
+article{
+    padding: 10px 20px;
+}
+
+.left img{
+    margin-top: 20px;
+    border: #FCFCD4 solid 5px;
+    border-radius: 50%;
+}
+picture{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+aside ul{
+    text-align: center;
+}
+
+.menu{
+    /* background-color: rgb(62, 62, 62); */
+    /* background: linear-gradient(100deg, black, rgb(62, 62, 62)); */
+    background-image: url(https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?w=740&t=st=1678266393~exp=1678266993~hmac=47f7a11d9c926718f639aa95fde6a9d552c57c4882536850772bf173d819e3b2);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+}
+
+.navigation_list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.menu a{
+    color: #90BAF9;
+    margin: auto 2px;
+    font-size: 22px;
+    
+}
+
+footer{
+    padding: 20px;
+    /* background: linear-gradient(70deg, black, rgb(62, 62, 62)); */
+    background-image: url(https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?w=740&t=st=1678266393~exp=1678266993~hmac=47f7a11d9c926718f639aa95fde6a9d552c57c4882536850772bf173d819e3b2);
+    position: fixed;
+    bottom: 0;
+    color: #90BAF9;
+}
+
+/* ========== ICONS ========== */
+
+.fa-solid{
+    margin: 0 2px;
+    color: #90BAF9;
+}
+
+.fa-brands{
+    color: #90BAF9;
+    margin: 0 2px;
+    font-size: 18px;
+}
+
+aside main ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto 28px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+label{
+    margin-top: 8px;
+}
+
+#submit:hover,#reset:hover{
+    background-color: #90BAF9;
+}
+
+#submit, #reset{
+    width: 100px;
+    padding: 2px;
+    margin-top: 8px;
+    border-radius: 5%;
+    border: none;
+    font-size: large;
+}
+
+form {
+    width: 220px;
+    margin: 20px 0;
+}
+.rate label{
+    display: block;
+}
+
+.choices{
+    display: block;
+}
+
+.choices input
+{
+    margin: 0 4px;
+}
+
+.form-buttons
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input,select{
+    padding: 5px;
+}
+
+.clear { 
+    clear: both; 
+    height: 320px; 
+}
+.choices:first-child{
+    margin-top: 2px;
+}
+
+.right img{
+    object-fit: cover;
+    width: 100%;
+    height: 325px;
+}
+
+/* @media screen and (max-width: 880px) {
+    .right img {
+        height: 347px;
+    }
+  }
+
+@media screen and (min-width: 1390px) {
+    .right img {
+        height: 290px;
+    }
+  } */
+
+  /* ===================== #*MOBILE*# ===================== */
+  @media screen and (max-width: 320px) {
+
+    .menu a{
+        margin: auto 1px;
+        font-size: 10px;
+        
+    }
+
+    P{
+        font-size: x-small;
+    }
+
+    .fa-brands{
+        margin: 0 1px;
+        font-size: 14px;
+    }
+
+    .fa-solid{
+        margin: 0 1px;
+        color: #90BAF9;
+    }
+
+    .clear { 
+        clear: both; 
+        height: 350px; 
+    }
+
+    .left{
+        width: 200px;
+    }
+
+    h1{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    h3{
+        margin-top: 10px;
+        text-decoration: underline;
+    }
+
+    h2{
+        font-size: medium;
+    }
+
+    .left img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .right img {
+        height: 270px;
+    }
+
+    aside main{
+        color: white;
+        /* background-color: black; */
+        padding: 5px;
+    
+    }
+
+    #submit, #reset{
+        width: 100px;
+        padding: 1px;
+        margin-top: 8px;
+        border-radius: 5%;
+        border: none;
+        font-size: small;
+    }
+
+    aside main ul{
+        font-size: medium;
+    }
+
+    
+    form{
+        width: 100px;
+        font-size: x-small;
+    }
+
+    .form-buttons{
+       flex-direction: column;
+       text-align: center;
+    }
+
+    footer{
+        height: 80px;
+    }
+    
+    h3 {
+        font-size: small;
+    }
+  
+  }
+
+
+  /* =========== *Tablet* ========== */
+
+  @media screen and (max-width: 768px) {
+
+    .menu a{
+        margin: auto 1px;
+        font-size: 14px;
+        
+    }
+
+    P{
+        font-size: medium;
+    }
+
+    .fa-brands{
+        margin: 0 1px;
+        font-size: 16px;
+    }
+
+    .fa-solid{
+        margin: 0 1.5px;
+        color: #90BAF9;
+    }
+
+    .clear { 
+        clear: both; 
+        height: 200px; 
+    }
+
+    h1{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    h3{
+        margin-top: 10px;
+        text-decoration: underline;
+    }
+
+    h2{
+        font-size: large;
+    }
+
+    .left img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .right img {
+        height: 280px;
+    }
+
+    aside main{
+        color: white;
+        /* background-color: black; */
+        padding: 10px;
+    
+    }
+
+    
+
+    aside main ul{
+        font-size: medium;
+    }
+
+    
+    form{
+        width: 240px;
+        font-size: medium;
+    }
+
+    .form-buttons{
+       flex-direction: row;
+       text-align: center;
+    }
+
+    footer{
+        height: 120px;
+    }
+    
+    h3 {
+        font-size: medium;
+    }
+    .menu a{
+        font-size: 14px;
+    }
+  
+  }
+
+  
